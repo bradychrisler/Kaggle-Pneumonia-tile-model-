@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Data files (large files - uncomment if you want to exclude data)
+# data/raw/
+# data/processed/
+
+# Outputs
+outputs/
+*.log
+
+# Weights & Biases
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Kaggle
+.kaggle/
+*.csv
+!requirements.txt
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Visualizations (optional - uncomment if you don't want to track these)
+# visualizations/
+
+# OneDrive
+*.lnk
+
+# Model checkpoints (keep structure but ignore large files)
+outputs/**/*.pth
+outputs/**/model_epoch_*.pth
+
+
+
+
+
+
