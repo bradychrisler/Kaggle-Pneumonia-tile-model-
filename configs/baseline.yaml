@@ -1,0 +1,22 @@
+seed: 42
+data:
+  metadata_csv: data/processed/train_metadata.csv
+  image_root: .
+  n_folds: 5
+  fold: 0
+  batch_size: 32
+  num_workers: 4
+  image_size: 224
+  use_albumentations: true
+model:
+  name: resnet18
+  pretrained: true
+training:
+  epochs: 5
+  lr: 0.0001
+  weight_decay: 0.0001
+  mixed_precision: true
+  output_dir: outputs
+logging:
+  every_n_steps: 50
+
